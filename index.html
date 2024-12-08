@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRI KAMATCHIAMMAN</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+
+</head>
+<body>
+  <!-- Language Switcher -->
+  <header class="navbar">
+    <div class="container">
+      <h1 id="logo">ALLITHURAI ARULMIGU SRI KAMATCHIAMMAN KUDIPATTUKOVIL</h1>
+      <button id="menu-toggle" class="menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav id="nav-menu" class="nav-menu">
+        <ul class="dropdown">
+          <li><a href="#home" id="nav-home">Home</a></li>
+          <li>
+            <a href="#slider" id="nav-temples">Temple</a>
+            
+          </li>
+          <!-- <li><a href="#videos" id="nav-services">Services</a></li> -->
+          <li><a href="#videos" id="nav-events">Events</a></li>
+          <li><a href="#contact" id="nav-contact">Contact</a></li>
+    
+          <li id="lang-toggle"  class="lang-btn"><a  id="nav-contact">தமிழ்</a></li>
+        </ul>
+       
+      </nav>
+     
+    </div>
+  </header>
+  
+  <!-- Hero Banner -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2 id="hero-title">Discover the Spiritual Serenity</h2>
+      <p id="hero-description">Experience the divine journey through the sacred temples of Andhra Pradesh.</p>
+      <a href="#slider" id="hero-btn" class="btn">Explore</a>
+    </div>
+    <div class="additional-content">
+      <h3 id="additional-title">Arulmigu Alli Thurai Sri Kamakshi Amman Koodipattu Temple</h3>
+      <p id="additional-description">
+        The Arulmigu Alli Thurai Sri Kamakshi Amman Koodipattu Temple is one of the most revered shrines 
+        in Tamil Nadu. It is known for its divine grace and vibrant spiritual ambiance. This sacred temple 
+        has been a cornerstone of faith for devotees for generations, offering solace and blessings to all 
+        who visit.
+      </p>
+      <p>
+        The temple features remarkable architecture with intricate carvings and a serene environment that 
+        enhances the spiritual experience. It is dedicated to Goddess Kamakshi Amman, who is worshipped as 
+        a powerful manifestation of divine energy.
+      </p>
+      <p>
+        Visitors flock to this temple during major festivals such as Navaratri, Aadi, and the annual Brahmotsavam. 
+        These occasions are marked by grand celebrations, colorful rituals, and the divine presence felt 
+        by devotees. The nearby sacred pond, often used for holy baths, adds to the sanctity of the temple 
+        premises.
+      </p>
+      <p>
+        Located in the picturesque surroundings of Tamil Nadu, the temple not only attracts pilgrims but also 
+        nature lovers who admire its serene backdrop and lush greenery. With its tranquil environment and rich 
+        heritage, it is a must-visit for anyone seeking a deep spiritual connection and peace of mind.
+      </p>
+    </div>
+  </section>
+
+  <!-- Image Slider Section -->
+  <section class="slider-section" id="slider">
+    <h2 class="section-title">Explore Temple</h2>
+    <div class="slider">
+      <div class="slide"><img src="./assets/card1.jpg" alt="Temple 1"></div>
+      <div class="slide"><img src="./assets/card1.jpg" alt="Temple 2"></div>
+      <div class="slide"><img src="./assets/card1.jpg" alt="Temple 3"></div>
+    </div>
+  </section>
+
+  <!-- Video Slider Section -->
+  <section class="video-slider-section" id="videos">
+    <h2 class="section-title">Temple Rituals and Events</h2>
+    <div class="video-slider">
+      <div class="slide"><video controls><source src="ritual1.mp4" type="video/mp4"></video></div>
+      <div class="slide"><video controls><source src="event1.mp4" type="video/mp4"></video></div>
+      <div class="slide"><video controls><source src="ritual2.mp4" type="video/mp4"></video></div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <h2 id="contact-title">Contact Us</h2>
+      <p id="contact-info">Address:
+        <address>RJ9G+H5, Adavathur, Tamil Nadu 620102</address>
+        
+      </p>
+      <p><strong>Phone No:</strong>+91 9786574617</p>
+      <form style="margin: 10px 0px;" method="POST" action="mailto:lovisaravanan@gmail.com" enctype="text/plain">
+        <input type="text" id="name-placeholder" name="name" placeholder="Your Name" required>
+        <input type="email" id="email-placeholder" name="email" placeholder="Your Email" required>
+        <textarea id="message-placeholder" name="message" placeholder="Message"></textarea>
+        <button type="submit" id="submit-btn">Send</button>
+      </form>
+      
+    </div>
+  </footer>
+</body>
+</html>
