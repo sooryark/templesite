@@ -11,7 +11,7 @@ const languageContent = {
       },
       hero: {
         title: "Discover the Spiritual Serenity",
-        description: "Experience the divine journey through the sacred temples of Andhra Pradesh.",
+        description: "Experience the divine journey through the sacred temple.",
         btn: "Explore"
       },
       temples: {
@@ -46,7 +46,7 @@ const languageContent = {
       },
       hero: {
         title: "ஆன்மீக அமைதியை கண்டறியவும்",
-        description: "ஆந்திரப் பிரதேசத்தின் புனித கோயில்களில் ஆன்மீக பயணத்தை அனுபவிக்கவும்.",
+        description: "புனித கோயில்ளில் ஆன்மீக பயணத்தை அனுபவிக்கவும்.",
         btn: "கோயில்"
       },
       temples: {
