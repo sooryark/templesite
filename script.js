@@ -14,6 +14,10 @@ const languageContent = {
         description: "Experience the divine journey through the sacred temple.",
         btn: "Explore"
       },
+      mainContent:{
+        additionalTitle:"Arulmigu Alli Thurai Sri Kamakshi Amman Koodipattu Temple",
+        additionaldescription:"The Arulmigu Alli Thurai Sri Kamakshi Amman Koodipattu Temple is one of the most revered shrines in Tamil Nadu. It is known for its divine grace and vibrant spiritual ambiance. This sacred temple has been a cornerstone of faith for devotees for generations, offering solace and blessings to all who visit.The temple features remarkable architecture with intricate carvings and a serene environment that enhances the spiritual experience. It is dedicated to Goddess Kamakshi Amman, who is worshipped as a powerful manifestation of divine energy.Visitors flock to this temple during major festivals such as Navaratri, Aadi, and the annual Brahmotsavam. These occasions are marked by grand celebrations, colorful rituals, and the divine presence felt by devotees.The temple not only attracts pilgrims but also nature lovers who admire its serene backdrop and lush greenery. With its tranquil environment and rich heritage, it is a must-visit for anyone seeking a deep spiritual connection and peace of mind."  
+      },
       temples: {
         title: "Our Temples",
         temple1: {
@@ -49,6 +53,10 @@ const languageContent = {
         description: "புனித கோயில்ளில் ஆன்மீக பயணத்தை அனுபவிக்கவும்.",
         btn: "கோயில்"
       },
+      mainContent:{
+        additionalTitle:"அல்லிதுரை அருள்மிகு ஸ்ரீ காமாட்சியம்மன் குடிப்பட்டுகோவில்",
+        additionaldescription:"அருள்மிகு அல்லி துரை ஸ்ரீ காமாக்ஷி அம்மன் கூடிபத்து கோவில் தமிழ்நாட்டின் மிகவும் போற்றப்படும் தலங்களில் ஒன்றாகும். இது தெய்வீக கருணை மற்றும் துடிப்பான ஆன்மீக சூழ்நிலைக்கு பெயர் பெற்றது. இந்த புனித ஆலயம் தலைமுறை தலைமுறையாக பக்தர்களுக்கு நம்பிக்கையின் மூலக்கல்லாக இருந்து வருகிறது, வருகை தரும் அனைவருக்கும் ஆறுதலையும் ஆசீர்வாதத்தையும் வழங்குகிறது.சிக்கலான சிற்ப வேலைப்பாடுகள் மற்றும் ஆன்மீக அனுபவத்தை மேம்படுத்தும் அமைதியான சூழலுடன் குறிப்பிடத்தக்க கட்டிடக்கலையை இந்த ஆலயம் கொண்டுள்ளது. இது தெய்வீக ஆற்றலின் சக்திவாய்ந்த வெளிப்பாடாக வழிபடப்படும் காமாக்ஷி அம்மனுக்கு அர்ப்பணிக்கப்பட்டுள்ளது.நவராத்திரி, ஆடி மற்றும் ஆண்டு பிரம்மோத்ஸவம் போன்ற முக்கிய பண்டிகைகளின் போது இந்த கோவிலுக்கு பார்வையாளர்கள் குவிகின்றனர். இந்த நிகழ்வுகள் பிரமாண்டமான கொண்டாட்டங்கள், வண்ணமயமான சடங்குகள் மற்றும் பக்தர்கள் உணரும் தெய்வீக இருப்பு ஆகியவற்றால் குறிக்கப்படுகின்றன.இக்கோயில் யாத்ரீகர்களை மட்டுமல்ல, அதன் அமைதியான பின்னணியையும் பசுமையான பசுமையையும் ரசிக்கும் இயற்கை ஆர்வலர்களையும் ஈர்க்கிறது. அதன் அமைதியான சூழல் மற்றும் வளமான பாரம்பரியத்துடன், ஆழ்ந்த ஆன்மீக தொடர்பையும் மன அமைதியையும் விரும்பும் எவரும் கட்டாயம் பார்க்க வேண்டிய இடமாகும்."
+      },
       temples: {
         title: "எங்கள் கோயில்கள்",
         temple1: {
@@ -74,7 +82,7 @@ const languageContent = {
   };
   
   // Language Toggle Logic
-  let currentLang = "en";
+  let currentLang = "ta";
   
   document.getElementById("lang-toggle").addEventListener("click", () => {
     currentLang = currentLang === "en" ? "ta" : "en";
@@ -94,6 +102,9 @@ const languageContent = {
     document.getElementById("hero-title").textContent = content.hero.title;
     document.getElementById("hero-description").textContent = content.hero.description;
     document.getElementById("hero-btn").textContent = content.hero.btn;
+
+    document.getElementById("additionalTitle").textContent = content.mainContent.additionalTitle
+    document.getElementById("additionaldescription").textContent = content.mainContent.additionaldescription
   
     // document.getElementById("temples-title").textContent = content.temples.title;
     // document.getElementById("temple1-title").textContent = content.temples.temple1.title;
